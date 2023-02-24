@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
        "storageName": {
-        "value": "perfcdsstorage"
+        "value": ""
        },
        "keyVaultName": {
-        "value": "perfcdsskeyvault"
+        "value": ""
        },
        "keyName": {
-        "value": "perfcdssdbserver-CMK"
+        "value": ""
        },
        "keyUri": {
-        "value": "https://perfcdsskeyvault.vault.azure.net/keys/perfcdssdbserver-CMK/618df8f1067e475dbdad81fde6ebe024"
+        "value": ""
        },
        "keyversion": {
-        "value": "618df8f1067e475dbdad81fde6ebe024"
+        "value": ""
        }
     }
 }
