@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+       "storageName": {
+        "value": "perfcdsstorage"
+       },
+       "keyVaultName": {
+        "value": "perfcdsskeyvault"
+       },
+       "keyName": {
+        "value": "perfcdssdbserver-CMK"
+       },
+       "keyUri": {
+        "value": "https://perfcdsskeyvault.vault.azure.net/keys/perfcdssdbserver-CMK/618df8f1067e475dbdad81fde6ebe024"
+       },
+       "keyversion": {
+        "value": "618df8f1067e475dbdad81fde6ebe024"
+       }
+    }
+}
